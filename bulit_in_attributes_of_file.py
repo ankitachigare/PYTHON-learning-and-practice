@@ -1,0 +1,6 @@
+myfile=open("info.txt","r")
+print('Name of file : ',myfile.name)
+print('Mode of file : ',myfile.mode)
+print('File closing status : ',myfile.closed)
+myfile.close()
+print('File closing status : ',myfile.closed)
