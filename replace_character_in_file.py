@@ -1,0 +1,5 @@
+myfile1=open("info.txt","r")
+myfile2=open("info2.txt","w")
+data=myfile1.read()
+newdata=data.replace('a','5')
+myfile2.write(newdata)
